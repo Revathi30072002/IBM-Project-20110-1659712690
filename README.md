@@ -15,3 +15,4 @@ An alert is sent when there is an opening based on the user skillset.
 Users will interact with the chatbot and can get the recommendations based on their skills.
 We can use a job search API to get the current job openings in the market which will fetch the data directly from the webpage.
 
+![cloud](https://user-images.githubusercontent.com/114278610/196971314-038c4b1b-000b-4d2f-aedc-9e94b491aa01.png)
