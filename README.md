@@ -1,10 +1,10 @@
 # IBM-Project-20110-1659712690
 
-Skill / Job Recommender Application
+**Skill / Job Recommender Application**
 
-Category: Cloud App Development
+**Category:** Cloud App Development
 
-Project Description:
+**Project Description:**
   
 Having lots of skills but wondering which job will best suit you? 
 Don’t need to worry! 
@@ -14,5 +14,7 @@ The user and their information are stored in the Database.
 An alert is sent when there is an opening based on the user skillset.
 Users will interact with the chatbot and can get the recommendations based on their skills.
 We can use a job search API to get the current job openings in the market which will fetch the data directly from the webpage.
+
+**Technical Architecture:**
 
 ![cloud](https://user-images.githubusercontent.com/114278610/196971314-038c4b1b-000b-4d2f-aedc-9e94b491aa01.png)
