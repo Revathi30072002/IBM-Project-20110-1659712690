@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watson Assistant</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url("https://imageuploadbyselsa.s3.jp-tok.cloud-object-storage.appdomain.cloud/weather.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        h1{
+            color: rgb(255, 0, 0);
+            font-family: forte;
+            font-size: 50px;
+        }
+        p{
+            color: rgb(124, 1, 114);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+  <h1>Welcome!!</h1>
+  <p>Let's Know about the weather in your place!!</p>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "447c881e-f91b-4edc-913e-44e2f8f8cad1", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "c28b8c88-7b57-4ab9-8ff1-2443fe081757", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
